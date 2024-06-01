@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  background-images:url-("https://cdn.acciojob.com/questions-data/Screenshot%202023-01-31%20at%206.02.15%20PM.png")
   margin: 0;
   padding: 0;
   display: flex;
