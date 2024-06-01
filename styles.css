@@ -7,7 +7,6 @@ html {
 }
 
 body {
-  background-images:url-("https://cdn.acciojob.com/questions-data/Screenshot%202023-01-31%20at%206.02.15%20PM.png")
   margin: 0;
   padding: 0;
   display: flex;
@@ -161,3 +160,22 @@ input[type=range]::-moz-range-thumb {
   background: #ffc600;
   cursor: pointer;
 }
+
+
+
+
+/* Assuming you have a class named 'image-container' */
+.image-container::before {
+    /* Specify the URL of the image */
+    content: url('https://cdn.acciojob.com/questions-data/Screenshot%202023-01-31%20at%206.02.15%20PM.png');
+    
+    /* Optional: Specify how the image should be positioned */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Optional: Specify how the image should be sized */
+    width: 100px;
+    height: 100px;
+}
+
